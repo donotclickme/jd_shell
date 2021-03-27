@@ -12,6 +12,7 @@ LogDir=${ShellDir}/log
 [ ! -d ${LogDir} ] && mkdir -p ${LogDir}
 ScriptsDir=${ShellDir}/scripts
 Scripts2Dir=${ShellDir}/scripts2
+PanelDir=${ShellDir}/panel
 ConfigDir=${ShellDir}/config
 FileConf=${ConfigDir}/config.sh
 FileDiy=${ConfigDir}/diy.sh
