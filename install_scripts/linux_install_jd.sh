@@ -9,7 +9,7 @@ JdDir=${ShellDir}/jd
 
 function Welcome() {
     echo -e "\n正在为您安装环境（依赖）：\ngit wget curl perl moreutils node.js npm\n\n"
-    echo -e "除了安卓，由于其它系统安装软件需要sudo或者su，本脚本除安装环境外不会调用任何其他root的执行权限\n"
+    echo -e "除了安卓，由于其它系统安装软件需要sudo，本脚本除安装环境外不会调用再次任何root的执行权限\n"
     echo -e "若担心安全风险，可选择自行安装环境!!\n"
     echo -e ''
     echo -e '#####################################################'
@@ -18,7 +18,7 @@ function Welcome() {
     echo -e "      1   debian/ubuntu/armbian/OpenMediaVault，以及其他debian系\n"
     echo -e "      2   CentOS/RedHat/Fedora等红帽系\n"
     echo -e "      3   Termux为主的安卓系\n"
-    echo -e "      4   已安装(继续)\n"
+    echo -e "      4   环境已安装，继续下一步\n"
     echo -e "      5   自己手动安装环境(退出)\n"
     echo -e "      当前系统时间  $(date +%Y-%m-%d) $(date +%H:%M)"
     echo -e ''
