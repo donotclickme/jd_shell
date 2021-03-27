@@ -462,7 +462,7 @@ function panelinit {
       rm -rf ${PanelDir}/node_modules
     fi
   fi
-  echo -e "记得开启前先认真看Wiki中，功能页里关于控制面板的事项\n"
+  echo -e "控制面板检查&更新完成"
   sleep 1
   if [ ! -f "$panelpwd" ]; then
   cp -f ${ShellDir}/sample/auth.json ${ConfigDir}/auth.json
