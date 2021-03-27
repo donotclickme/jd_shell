@@ -42,6 +42,11 @@
 
 
 
+
+
+
+
+
 ## 请仔细阅读 [WIKI](https://github.com/lan-tianxiang/jd_shell/wiki) 和各文件注释，95%的问题都能找到答案
 
 ## 适用于以下系统
