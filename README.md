@@ -1,4 +1,46 @@
+<!--
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=lan-tianxiang&show_icons=true&theme=radical&repo=jd_shell)](https://github.com/lan-tianxiang/jd_shell)
+-->
+
+<p align="center">
+ <img width="100px" src="https://res.cloudinary.com/anuraghazra/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="GitHub Readme Stats" />
+ <h2 align="center">JD SHELL</h2>
+ <p align="center">自动化一键完成Bean采集</p>
+</p>
+  <p align="center">
+    <a href="https://github.com/lan-tianxiang/jd_shell/actions">
+      <img alt="Tests Passing" src="https://github.com/lan-tianxiang/jd_shell/workflows/DockerHub/badge.svg" />
+    </a>
+    <a href="https://codecov.io/gh/lan-tianxiang/jd_shell">
+      <img src="https://codecov.io/gh/lan-tianxiang/jd_shell/branch/master/graph/badge.svg" />
+    </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/lan-tianxiang/jd_shell?color=0088ff" />
+    </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/lan-tianxiang/jd_shell?color=0088ff" />
+    </a>
+    <br />
+    <br />
+    <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
+      <img src="https://img.shields.io/badge/Supported%20by-Lan%20Tian%20Xiang%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
+    </a>
+    <a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
+      <img src="https://img.shields.io/badge/Supported%20by-LXK%200301%20Scripts%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
+    </a>
+  </p>
+
+  <p align="center">
+    <a href="#demo">查看 Demo</a>
+    ·
+    <a href="https://github.com/lan-tianxiang/jd_shell/issues/new/choose">报告 Bug</a>
+    ·
+    <a href="https://github.com/lan-tianxiang/jd_shell/issues/new/choose">请求增加功能</a>
+  </p>
+</p>
+<p align="center">喜欢这个项目？请考虑<a href="">捐赠</a>来帮助它完善！
+
+
 
 ## 请仔细阅读 [WIKI](https://github.com/lan-tianxiang/jd_shell/wiki) 和各文件注释，95%的问题都能找到答案
 
