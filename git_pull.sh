@@ -30,33 +30,45 @@ ContentDropTask=${ShellDir}/drop_task
 SendCount=${ShellDir}/send_count
 isTermux=${ANDROID_RUNTIME_ROOT}${ANDROID_ROOT}
 WhichDep=$(grep "/jd_shell" "${ShellDir}/.git/config")
-Scripts2URL=https://gitee.com/tianxiang-lan/jd_scripts
+Scripts2URL=https://gitee.com/highdimen/jd_scripts
 
 if [[ ${WhichDep} == *github* ]]; then
   ScriptsURL=https://gitee.com/highdimen/clone_scripts
-  ShellURL=https://github.com/lan-tianxiang/jd_shell
+  ShellURL=https://gitee.com/highdimen/jd_shell
 else
   ScriptsURL=https://gitee.com/highdimen/clone_scripts
-  ShellURL=https://github.com/lan-tianxiang/jd_shell
+  ShellURL=https://gitee.com/highdimen/jd_shell
 fi
 
 
 function SourceUrl_Update {
+
   strAttttt=`grep "url" ${ScriptsDir}/.git/config`
-  strBttttt="RikudouPatrickstar"
+  strBttttt="highdimen"
 if [[ $strAttttt =~ $strBttttt ]]
   then
-  rm -rf ${ScriptsDir}
-  else
   echo "1"
+  else
+  rm -rf ${ScriptsDir}
 fi
+
   strAttttt=`grep "url" ${Scripts2Dir}/.git/config`
-  strBttttt="lan-tianxiang"
+  strBttttt="highdimen"
 if [[ $strAttttt =~ $strBttttt ]]
   then
-  rm -rf ${Scripts2Dir}
+  echo "1"
   else
-  echo "2"
+  rm -rf ${Scripts2Dir}
+fi
+
+  strAttttt=`grep "url" ${ShellDir}/.git/config`
+  strBttttt="highdimen"
+if [[ $strAttttt =~ $strBttttt ]]
+  then
+  echo "1"
+  else
+  perl -i -pe "s|url = https://github.com/lan-tianxiang/jd_shell|url = https://gitee.com/highdimen/jd_shell|g" ${ShellDir}/.git/config
+  perl -i -pe "s|url = https://gitee.com/tianxiang-lan/jd_shell|url = https://gitee.com/highdimen/jd_shell|g" ${ShellDir}/.git/config
 fi
 }
 
