@@ -369,7 +369,7 @@ function Add_Cron {
 function ExtraShell() {
   ## 自动同步用户自定义的diy.sh
   EnableExtraShellURL="https://gitee.com/tianxiang-lan/jd_shell/raw/v3/sample/diy.sh"
-  if [[ ${EnableExtraShellUpdate} == true ]]; then
+  if [[ ${EnableExtraShellUpdate} == notopen ]]; then
     wget -q $EnableExtraShellURL -O ${FileDiy}
     if [ $? -eq 0 ]; then
       echo -e "自定义 DIY 脚本同步完成......"
