@@ -14,18 +14,18 @@
     <a href="https://codecov.io/gh/lan-tianxiang/jd_shell">
       <img src="https://codecov.io/gh/lan-tianxiang/jd_shell/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
+    <a href="https://github.com/lan-tianxiang/jd_shell/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/lan-tianxiang/jd_shell?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
+    <a href="https://github.com/lan-tianxiang/jd_shell/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/lan-tianxiang/jd_shell?color=0088ff" />
     </a>
     <br />
     <br />
-    <a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
+    <a href="https://github.com/lan-tianxiang/">
       <img src="https://img.shields.io/badge/Supported%20by-Lan%20Tian%20Xiang%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/>
     </a>
-    <a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
+    <a href="https://github.com/lxk0301">
       <img src="https://img.shields.io/badge/Supported%20by-LXK%200301%20Scripts%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge"/>
     </a>
   </p>
