@@ -67,14 +67,14 @@
 ### 1.Linux 一键部署：
 内有多个环节选择，可退出！
 ```shell
-wget -q https://gitee.com/tianxiang-lan/jd_shell/raw/v3/install_scripts/linux_install_jd.sh -O linux_install_jd.sh && chmod +x linux_install_jd.sh && bash linux_install_jd.sh
+wget -q https://gitee.com/highdimen/jd_shell/raw/v3/install_scripts/linux_install_jd.sh -O linux_install_jd.sh && chmod +x linux_install_jd.sh && bash linux_install_jd.sh
 ```
 若提示没有安装wget,则安装wget
 
 ### 2. Docker 一键部署单个容器：
 
 ```shell
-wget -q https://gitee.com/tianxiang-lan/jd_shell/raw/v3/install_scripts/docker_install_jd.sh -O docker_install_jd.sh && chmod +x docker_install_jd.sh && bash docker_install_jd.sh
+wget -q https://gitee.com/highdimen/jd_shell/raw/v3/install_scripts/docker_install_jd.sh -O docker_install_jd.sh && chmod +x docker_install_jd.sh && bash docker_install_jd.sh
 ```
 
 ### 3. 修复或升级：
